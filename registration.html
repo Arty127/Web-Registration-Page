@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="registration.css">
+        <link rel="icon" href="download.png" type="image/icon type">
+        <script type="text/javascript" src="registration.js"></script>
+    </head>
+    <body>
+        <div class="main-block">
+            <h1>Registration</h1>
+            <form>
+                <hr>
+                <div class="account-type">
+                    <input type="radio" value="none" id="radioOne" name="account" checked/>
+                    <label for="radioOne" class="radio">Personal</label>
+                    <input type="radio" value="none" id="radioTwo" name="account"/>
+                    <label for="radioTwo" class="radio">Professional</label>
+                </div>
+                <hr>
+                <label id="icon" for="name"><i class="fas fa-user"></i></label>
+                <input type="text" name="name" id="name" placeholder="Name" required><br>
+                <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+                <input type="password" name="name" id="name1" placeholder="Password" required><br>
+                <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+                <input type="password" name="name" id="name2" placeholder="Confirm Password" required><br>
+                <label id="icon" for="name"><i class="fas fa-phone"></i></label>
+                <input type="text" name="name" id="phone" placeholder="Phone Number" required><br>
+                <label id="icon" for="name"><i class="fas fa-calendar-alt"></i></label>
+                <input type="date" name="name" id="name" required><br>
+                <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                <input type="email" name="name" id="name" placeholder="Email" required>
+                <hr>
+                <div class="gender">
+                    <input type="radio" value="none" id="male" name="gender" checked>
+                    <label for="male" class="radio">Male</label>
+                    <input type="radio" value="none" id="female" name="gender">
+                    <label for="female" class="radio">Female</label>
+                </div>
+                <hr>
+                <div class="btn-blk">
+                    <p>By clicking REGISTER, you agree to the terms and conditions of our <a href="#">Privacy Policy</a></p>
+                    <button type="submit" onclick="return main1()">Regsiter</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
